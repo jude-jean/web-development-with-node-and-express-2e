@@ -1,5 +1,6 @@
 const express = require('express')
-const expressHandlebars = require('express-handlebars')
+//const expressHandlebars = require('express-handlebars')
+const { engine: expressHandlebars } = require('express-handlebars')
 
 const app = express()
 
